@@ -1,0 +1,8 @@
+apiVersion: "stable.example.com/v1"
+kind: VirtualService
+metadata:
+  name: my-virtualservice
+spec:
+  cronSpec: "* * * * */5"
+  image: my-awesome-cron-image
+
