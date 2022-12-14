@@ -1,8 +1,6 @@
-apiVersion: "stable.example.com/v1"
+apiVersion: "fake.notreal.com/v1"
 kind: VirtualService
 metadata:
   name: my-virtualservice
 spec:
-  cronSpec: "* * * * */5"
-  image: my-awesome-cron-image
-
+  image: my-not-real-image
